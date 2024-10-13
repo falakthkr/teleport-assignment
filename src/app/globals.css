@@ -7,7 +7,7 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -24,4 +24,14 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.placeholder-black::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.placeholder-darkgray::placeholder {
+  color: darkgray;
+  opacity: 1;
 }

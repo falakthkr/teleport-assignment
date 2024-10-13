@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import { FormProvider } from "@/context/FormContext";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -22,8 +23,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{ margin: "20px" }}
       >
-        {children}
+        <FormProvider>{children}</FormProvider>
       </body>
     </html>
   );
