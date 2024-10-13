@@ -16,7 +16,7 @@ const SummaryPage = () => {
       <h2 className="text-2xl font-semibold mb-4">Submission Successful!</h2>
       <p className="text-lg mb-4">
         Thank you for submitting your information. Below is a summary of what
-        you've provided:
+        you have provided:
       </p>
 
       <h3 className="text-xl font-semibold mb-2">Personal Information</h3>
