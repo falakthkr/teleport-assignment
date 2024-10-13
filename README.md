@@ -1,4 +1,4 @@
-# User Registration Form with Dynamic Rendering
+# Multi-step User Registration Form 
 
 ## Overview
 
